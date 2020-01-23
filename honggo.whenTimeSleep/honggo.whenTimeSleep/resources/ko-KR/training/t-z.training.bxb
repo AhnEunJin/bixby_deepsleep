@@ -1,0 +1,5 @@
+train (t-zkplanifimx644lymrf42wmqx) {
+  utterance ("[g:CalculateTime] {[g:start] (내일 6시)[v:viv.time.DateTimeExpression]}에 일어날꺼야")
+  plan (Y2BhkM/Iz0tPz9crz0jNC8nMTQ3OSU0t0AOTIG4xgxJWBc6JOcmlOYklqSAhBimsaopLEotKGKTLMsv0SoCCei5Q5a4VBUWpxcWZ+XkMzAyMDExAkgFMMwJpFiCGiQJJAA==)
+  last-modified (1579540181438)
+}

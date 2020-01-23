@@ -1,0 +1,88 @@
+layout-macro-def(viewDetails) {
+
+  params{
+    param (resultinfo) {
+      type (SleepTimes)
+      min (Required) max (Many)
+    }
+  }
+  content {
+    section{
+      content{
+         cell-card {
+           slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("#{value(resultinfo.time[0])}")
+              secondary ("9시간 잘수 있어요")
+            }
+          }
+          }
+          cell-card {
+            slot2 {
+              content {
+                order (PrimarySecondary)
+                primary ("#{value(resultinfo.time[1])}")
+                secondary ("7시간 30분 잘 수 있어요")
+                }
+            }
+          }
+          cell-card {
+            slot2 {
+              content {
+                order (PrimarySecondary)
+                primary ("#{value(resultinfo.time[2])}")
+                secondary ("6시간 잘 수 있어요")
+                }
+            }
+          }
+          cell-card {
+            slot2 {
+              content {
+                order (PrimarySecondary)
+                primary ("#{value(resultinfo.time[3])}")
+                secondary ("4시간 30분 잘수 있어요")
+                }
+            }
+          }
+          cell-card {
+            slot2 {
+              content {
+                order (PrimarySecondary)
+                primary ("다음 시간이 지난 후 주무세요!")
+                secondary ("#{value(resultinfo.remainTime)}")
+                }
+            }
+          }
+
+          image-card {
+            text-position (Below)
+            image-background-color (White)
+            image-object-fit (Contain)
+            aspect-ratio (16:9)
+            image-url {
+                template ("images/l.jpg")
+            }
+            title-area {
+                halign (Start)
+                slot1 {
+                    text {
+                        value {
+                            template ("렘 수면패턴")
+                        }
+                    }
+                }
+                slot2 {
+                    paragraph {
+                        value {
+                            template ("1시간 30분 주기")
+                        }
+                    }
+                }
+            }
+    }
+   
+      }
+    }
+  }
+}

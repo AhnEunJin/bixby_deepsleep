@@ -1,0 +1,17 @@
+structure (SleepTimes) {
+  description (자야되는 시간들)
+  property (time) {
+    type (Time)
+    min (Optional) max (Many)
+  }
+
+  property (remainTime) {
+    type (RemainTime)
+    min (Optional) max (One)
+  }
+}
+
+//  property (book) {
+//     type (Book)
+//     min (Optional) max (Many)
+//   }

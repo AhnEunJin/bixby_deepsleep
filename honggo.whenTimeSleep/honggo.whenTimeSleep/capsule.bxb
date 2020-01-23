@@ -1,0 +1,15 @@
+capsule {
+  id (honggo.whenTimeSleep)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US) {enabled (false)}
+    target (bixby-mobile-ko-KR)
+  }
+
+  capsule-imports {
+    import (viv.time) {
+      as (time) version (3.0.52)
+    }
+  }
+}

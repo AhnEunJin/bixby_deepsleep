@@ -1,0 +1,27 @@
+action (CalculateTime) {
+  description (자야하는 시간 반환)
+  collect {
+    input (start) {
+      type (start)
+      min (Required) max (One)
+    }
+  }
+  output (SleepTimes)
+}
+
+// action (InputEnlist) {
+//   description (입대일 입력)
+//   collect {
+//     input (start) {
+//       type (start)
+//       min (Required) max (One)
+//     }
+//     input (where) {
+//       type (where)
+//       min (Optional) max (One)
+//     }
+    
+//   }
+//   output (dummy)
+//   type (Search)
+// }

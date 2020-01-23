@@ -1,0 +1,5 @@
+train (t-tq9679gmv3jzjyq1tsjm5mnjl) {
+  utterance ("[g:CalculateTime] {[g:start] (오전 7시)[v:time.DateTimeExpression]}에 일어날게")
+  plan (Y2BhkM/Iz0tPz9crz0jNC8nMTQ3OSU0t0AOTIG4xgxJWBc6JOcmlOYklqSAhBimsaopLEotKGKTLMsv0SoCCei5Q5a4VBUWpxcWZ+XkMzAyMDExAkgFMMwJpFiCGiQJJAA==)
+  last-modified (1579540179779)
+}

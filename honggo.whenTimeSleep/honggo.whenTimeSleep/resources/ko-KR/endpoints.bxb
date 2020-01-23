@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+      action-endpoint (CalculateTime) {
+      accepted-inputs (start)
+      local-endpoint (CalculateTime.js)
+    }
+  }
+}

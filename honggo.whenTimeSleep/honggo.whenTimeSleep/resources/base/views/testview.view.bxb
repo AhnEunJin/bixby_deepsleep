@@ -1,0 +1,25 @@
+result-view {
+  match { SleepTimes(this) }
+
+  
+  message {
+    template ("추천 수면 시간") {
+      speech ("이 때 주무세요")
+    }
+  }
+
+ render {
+    layout-macro (viewDetails) {
+      param (resultinfo) {
+       expression (this)
+      }
+    }
+    
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("7시에 일어날거야")
+    }
+  }
+}

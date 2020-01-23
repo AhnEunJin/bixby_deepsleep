@@ -1,0 +1,4 @@
+structure (start) {
+  description (일어나야 하는 시간)
+  role-of (time.DateTimeExpression)
+}
